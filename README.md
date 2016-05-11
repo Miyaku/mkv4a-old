@@ -46,10 +46,10 @@ This a file include on master branches, you can clone or download manual zip<br 
     </pre>
 And if finis save, and reboot your device
 6). After booting, open stock music app and play your song, than open ViPER4Android FX and swipe to right > drivers status
-If working, the popup will be show like this
-<blockquote>Driver version: xxxx
-Status: Normal
-Format audio: supported
+If working, the popup will be show like this<br />
+<blockquote>Driver version: xxxx<br />
+Status: Normal<br />
+Format audio: supported<br />
 Proccess: Yes</blockquote>
 
 Clone this repository

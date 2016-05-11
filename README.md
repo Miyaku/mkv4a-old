@@ -42,6 +42,7 @@ This a file include on master branches, you can clone or download manual a <a hr
           uuid 41d3c987-e6cf-11e3-a88a-11aba5d5c51b
         }
     </pre>
+Note: If your rom running Dolby Atmos, maybe you must edit <i>audio_effect.conf</i> too on <code>/root/system/vendor/etc/</code><br />
 And if finis save, and reboot your device
 6). After booting, open stock music app and play your song, than open ViPER4Android FX and swipe to right > drivers status
 If working, the popup will be show like this<br />

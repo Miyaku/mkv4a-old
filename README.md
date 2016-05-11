@@ -64,5 +64,9 @@ git add *
 git commit -m "rom[info]-devices"
 git push -u origin your_device_info
 </pre>
+Create Pull Request
 
-
+##Credits
+ViPER4Android <a href="http://www.vipersaudio.com/blog">vipersaudio.com</a><br />
+MoKee Open Source <a href="http://mokeedev.com/">rom.mk</a><br />
+Guide Petaling Jaya, Bradl79 <a href="http://forum.xda-developers.com/showthread.php?t=2191223">@xda</a><br />

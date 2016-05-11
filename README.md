@@ -6,14 +6,12 @@ This a stock ViPER4Android on MoKee ROM, Based android Lollipop and Marshmallow 
 This a file include on master branches, you can clone or download manual zip<br />
 <pre>/
 |- system
-|
 |`- etc
 |   |- audio_effects.*.conf
 |`- lib
 |   |- soundfx
 |   `-- libv4a.so
 |    -- libv4a_fx.so
-|
 |`- priv-app
 |  |- ViPER4Android
     `- ViPER4Android.apk</pre>

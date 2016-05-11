@@ -1,5 +1,5 @@
 ui_print("######################################");
-ui_print("ViPER4Android for CM/MK based Android 5+");
+ui_print("ViPER4Android for AOSP Aries Android 6");
 ui_print("");
 ui_print("-> mifans.web.id <-");
 ui_print("");

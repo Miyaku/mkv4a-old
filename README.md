@@ -3,24 +3,24 @@ This a stock ViPER4Android on MoKee ROM, Based android Lollipop and Marshmallow 
 
 
 ##Informations
-This a file include on master branches, you can clone or download manual zip<br />
+This a file include on master branches, you can clone or download manual a <a href="https://github.com/Miyaku/mkv4a/archive/master.zip">master.zip</a><br />
 <pre>/
 |- system
 |`- etc
-|   |- audio_effects.*.conf
+|   |- <a href="https://github.com/Miyaku/mkv4a/tree/master/system/etc">audio_effects.*.conf</a>
 |`- lib
 |   |- soundfx
-|   `-- libv4a.so
-|    -- libv4a_fx.so
+|   `-- <a href="https://github.com/Miyaku/mkv4a/blob/master/system/lib/soundfx/libv4a.so">libv4a.so</a>
+|    -- <a href="https://github.com/Miyaku/mkv4a/blob/master/system/lib/soundfx/libv4a_fx.so">libv4a_fx.so</a>
 |`- priv-app
 |   |- ViPER4Android
-     `- ViPER4Android.apk</pre>
+     `- <a href="https://github.com/Miyaku/mkv4a/blob/master/system/priv-app/ViPER4Android/ViPER4Android.apk">ViPER4Android.apk</a></pre>
 </pre>
 
 ##Getting Start & Test Manualy
 1). Copy all file in your storage<br />
-2). Copy <b>libv4a.so</b> on your <code>/root/system/etc/lib</code> and set permission are 644<br />
-3). Copy dir <i>ViPER4Android</i> to your <code>/root/system/priv-app/</code> an set permission for dir 755 and .apk 644<br />
+2). Copy <b><a href="https://github.com/Miyaku/mkv4a/blob/master/system/lib/soundfx/libv4a.so">libv4a.so</a></b> on your <code>/root/system/etc/lib</code> and set permission are 644<br />
+3). Copy dir <b>ViPER4Android</b> to your <code>/root/system/priv-app/</code> an set permission for dir 755 and .apk 644<br />
 4). Open up <code>/root/system/build.prop</code> in text editor using any file explorer with root access.<br />
 	Change the line (If you can’t find these lines, skip this step.)
 	<pre>

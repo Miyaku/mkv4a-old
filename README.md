@@ -13,8 +13,8 @@ This a file include on master branches, you can clone or download manual zip<br 
 |   `-- libv4a.so
 |    -- libv4a_fx.so
 |`- priv-app
-|  |- ViPER4Android
-    `- ViPER4Android.apk</pre>
+|   |- ViPER4Android
+     `- ViPER4Android.apk</pre>
 </pre>
 
 ##Getting Start & Test Manualy
@@ -47,12 +47,18 @@ And if finis save, and reboot your device
 If working, the popup will be show like this<br />
 <blockquote>Driver version: xxxx<br />
 Status: Normal<br />
-Format audio: supported<br />
+Format audio: Supported<br />
 Proccess: Yes</blockquote>
 
-Clone this repository
+If the status is Abnormal maybe your device selinux is not permissive, yo can find out here http://miya.cf/merim
+
+Alright, i'm NOT promise it's can work to your rom on your devices, but if you want know, try will give you best answers :)
+
+##Pull Request to here
+If your hard work is perfecly working, you can share and pull new branch here, this a simple guide to push via local<br />
+1). Clone this repository
 <pre>git clone https://github.com/Miyaku/mkv4a.git</pre>
-edit for your devices and make work
+2). Edit for your devices and make work and include flashble zip on root dir and lets check out
 <pre>git checkout -b your_device_info
 git add *
 git commit -m "rom[info]-devices"

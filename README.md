@@ -17,10 +17,10 @@ This a file include on master branches, you can clone or download manual a <a hr
      `- <a href="https://github.com/Miyaku/mkv4a/blob/master/system/priv-app/ViPER4Android/ViPER4Android.apk">ViPER4Android.apk</a></pre>
 </pre>
 
-##Getting Start & Test Manualy
+##Getting Start & Test Manually
 1). Copy all file in your storage<br />
-2). Copy <b><a href="https://github.com/Miyaku/mkv4a/blob/master/system/lib/soundfx/libv4a.so">libv4a.so</a></b> on your <code>/root/system/etc/lib</code> and set permission are 644<br />
-3). Copy dir <b>ViPER4Android</b> to your <code>/root/system/priv-app/</code> an set permission for dir 755 and .apk 644<br />
+2). Copy <b><a href="https://github.com/Miyaku/mkv4a/blob/master/system/lib/soundfx/libv4a.so">libv4a.so</a></b> to <code>/root/system/etc/lib</code> and set permission are 644<br />
+3). Copy dir <b>ViPER4Android</b> to <code>/root/system/priv-app/</code> an set permission for dir 755 and .apk 644<br />
 4). Open up <code>/root/system/build.prop</code> in text editor using any file explorer with root access.<br />
 	Change the line (If you can’t find these lines, skip this step.)
 	<pre>
@@ -42,18 +42,18 @@ This a file include on master branches, you can clone or download manual a <a hr
           uuid 41d3c987-e6cf-11e3-a88a-11aba5d5c51b
         }
     </pre>
-Note: If your rom running Dolby Atmos, maybe you must edit <i>audio_effect.conf</i> too on <code>/root/system/vendor/etc/</code><br />
-And if finis save, and reboot your device
-6). After booting, open stock music app and play your song, than open ViPER4Android FX and swipe to right > drivers status
+Note: If your rom running Dolby Atmos, maybe you must edit <i>audio_effect.conf</i> too on <code>/root/system/vendor/etc/</code><br /><br />
+Save, and reboot your device
+6). After booting, open stock music app and play your song, keep play now open ViPER4Android FX app and swipe to right > drivers status
 If working, the popup will be show like this<br />
 <blockquote>Driver version: xxxx<br />
 Status: Normal<br />
 Format audio: Supported<br />
 Proccess: Yes</blockquote>
 
-If the status is Abnormal maybe your device selinux is not permissive, yo can find out here http://miya.cf/merim
+If the status is Abnormal maybe your device selinux is not permissive, you can find out here http://miya.cf/merim
 
-Alright, i'm NOT promise it's can work to your rom on your devices, but if you want know, try will give you best answers :)
+Alright, i'm NOT promise it's can work to your rom on your devices, but if you want know, trying will give you best answers :)
 
 ##Pull Request to here
 If your hard work is perfecly working, you can share and pull new branch here, this a simple guide to push via local<br />

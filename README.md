@@ -44,7 +44,13 @@ This a file include on master branches, you can clone or download manual zip<br 
           uuid 41d3c987-e6cf-11e3-a88a-11aba5d5c51b
         }
     </pre>
-
+And if finis save, and reboot your device
+6). After booting, open stock music app and play your song, than open ViPER4Android FX and swipe to right > drivers status
+If working, the popup will be show like this
+<code>Driver version: xxxx
+Status: Normal
+Format audio: supported
+Proccess: Yes</code>
 Clone this repository
 <pre>git clone https://github.com/Miyaku/mkv4a.git</pre>
 edit for your devices and make work

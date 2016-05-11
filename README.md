@@ -36,8 +36,7 @@ This a file include on master branches, you can clone or download manual zip<br 
 	v4a_fx {
           path /system/lib/soundfx/libv4a_fx_xxx.so
         }
-    </pre><br />
-    Keep editing scoll down<br />
+    </pre>
     Under “effects {“ add:
      <pre>
      v4a_standard_fx {
@@ -54,5 +53,5 @@ git add *
 git commit -m "rom[info]-devices"
 git push -u origin your_device_info
 </pre>
-Daft
+
 

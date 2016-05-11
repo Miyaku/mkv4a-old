@@ -32,7 +32,7 @@ This a file include on master branches, you can clone or download manual a <a hr
 	Under “libraries {“, add:
 	<pre>
 	v4a_fx {
-          path /system/lib/soundfx/libv4a_fx_xxx.so
+          path /system/lib/soundfx/libv4a.so
         }
     </pre>
     Under “effects {“ add:

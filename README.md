@@ -1,6 +1,6 @@
 #ViPER4Android
 This a stock ViPER4Android on MoKee ROM, Based android Lollipop and Marshmallow are supported.
-
+In this ViPER Panel you can't install drivers automatically, he NOT will ask you to install drivers.
 
 ##Informations
 This a file include on master branches, you can clone or download manual a <a href="https://github.com/Miyaku/mkv4a/archive/master.zip">master.zip</a><br />

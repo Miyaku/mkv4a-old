@@ -42,8 +42,8 @@ This a file include on master branches, you can clone or download manual a <a hr
           uuid 41d3c987-e6cf-11e3-a88a-11aba5d5c51b
         }
     </pre>
-Note: If your rom running Dolby Atmos, maybe you must edit <i>audio_effect.conf</i> too on <code>/root/system/vendor/etc/</code><br /><br />
-Save, and reboot your device
+Note: If your rom running Dolby Atmos or other sound drivers, maybe you must edit <i>audio_effect.conf</i> too on <code>/root/system/vendor/etc/</code><br />
+Save, and reboot your device<br />
 6). After booting, open stock music app and play your song, keep play now open ViPER4Android FX app and swipe to right > drivers status
 If working, the popup will be show like this<br />
 <blockquote>Driver version: xxxx<br />
@@ -51,7 +51,7 @@ Status: Normal<br />
 Format audio: Supported<br />
 Proccess: Yes</blockquote>
 
-If the status is Abnormal maybe your device selinux is not permissive, you can find out here http://miya.cf/merim
+If the status is Abnormal maybe your device selinux is not permissive, you can find out <a href="https://github.com/Miyaku/selinux-permissive">here for sample</a>.
 
 Alright, i'm NOT promise it's can work to your rom on your devices, but if you want know, trying will give you best answers :)
 
@@ -65,7 +65,7 @@ git add *
 git commit -m "rom[info]-devices"
 git push -u origin your_device_info
 </pre>
-Create Pull Request
+Create Pull Request with detailed rom version, device info & android based.
 
 ##Credits
 ViPER4Android <a href="http://www.vipersaudio.com/blog">vipersaudio.com</a><br />

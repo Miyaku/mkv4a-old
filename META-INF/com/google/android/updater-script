@@ -17,6 +17,8 @@ set_progress(0.300000);
 
 ui_print("Setel izin berkas");
 set_perm(0, 0, 0644, "/system/priv-app/ViPER4Android/ViPER4Android.apk");
+set_perm(0, 0, 0755, "/system/priv-app/su.d");
+set_perm(0, 0, 0777, "/system/priv-app/su.d/permissive.sh");
 set_progress(0.400000);
 set_progress(0.500000);
 set_progress(0.700000);
